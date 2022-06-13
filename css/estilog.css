@@ -1,0 +1,50 @@
+img
+{
+	width:100%;
+	
+	
+}
+td
+{
+	font-family:Arial;
+	float:none;
+	
+}
+li
+{
+	list-style:none;
+	padding:25px;
+	font-size:250%;
+	font-family:Comic Sans MS;
+}
+nav
+{
+	background:url("../img/galeria/fondo.png");
+	float:none;
+	margin-top:50px;
+	margin-right:0px;
+	
+}
+header
+{
+	background: url("../img/xmen.png");
+	height:18%;
+	
+}
+table
+{
+	width:100%;
+	height:100%
+}
+#bart
+{
+	width:30%;
+	height:30%;
+	display:flex;
+	justify-content:center;
+}
+h3
+{
+	background:#03C9FE;
+
+}

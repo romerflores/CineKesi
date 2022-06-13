@@ -1,0 +1,62 @@
+header
+{
+	background:red;
+	padding:5px;
+
+}
+img
+{
+	padding:10px
+}
+section
+{
+	padding:10px;
+	float:left;
+	background-color:#186589;
+	width:45%
+}
+aside
+{
+	padding:10px;
+	float:right;
+	background-color: orange;
+	width:45%
+}
+h2
+{
+	
+}
+a
+{
+	text-decoration:none;
+	color:White
+}
+a:hover
+{
+	background-color:black;
+	color:red
+}
+@media screen and (max-width:543px)
+{
+	img
+	{
+	 width:200px;
+	 height:200px
+	}
+	h1,h2
+	{
+		font-size:130%
+	}
+}
+@media screen and (max-width:430px)
+{
+	img
+	{
+	 width:200px;
+	 height:200px
+	}
+	h1,h2
+	{
+		font-size:100%
+	}
+}

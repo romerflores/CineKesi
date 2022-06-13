@@ -1,0 +1,150 @@
+#logo
+{
+	margin-top:10px;
+	
+	
+	
+}
+#lado
+{
+	float:left;
+	width:20%;
+	background:orange;
+	margin-top:10px;
+	margin-left:5px
+}
+#base
+{
+	width:75%;
+	float:right
+	
+}
+li
+{
+	float:left;
+	list-style:none;
+	padding:5px;
+	font-family:Dejavu Sans;
+	font-size:80%
+	
+	
+}
+nav
+{
+	float:right;
+	width:70%;
+	height:30%;
+}
+a
+{
+	text-decoration:none
+}
+header
+{
+	background:#1a1941;
+	width:100%;
+	
+	
+}
+ul
+{
+	width:100%
+}
+h3
+{
+	font-size:80%
+}
+h4
+{
+	font-size:70%
+}
+h5
+{
+	font-size:80%
+}
+#contpreventa
+{
+	width:75%;
+	height:50%;
+	font-size:200%
+}
+@media screen and (max-width:365px)
+{
+
+	li
+	{
+		float:left;
+		list-style:none;
+		padding:5px;
+		font-family:Dejavu Sans;
+		font-size:50%
+	}
+	#contpreventa
+	{
+	width:75%;
+	height:50%;
+	font-size:100%
+	}
+	}
+@media screen and (min-width:500px)
+{
+	li
+	{
+		float:left;
+		list-style:none;
+		padding:5px;
+		font-family:Dejavu Sans;
+		font-size:100%
+	}
+	
+}
+@media screen and (min-width:800px)
+{
+	li
+	{
+		float:left;
+		list-style:none;
+		padding:5px;
+		font-family:Dejavu Sans;
+		font-size:150%
+	}
+	nav
+	{
+		margin-top:30px
+	}
+	#contpreventa
+	{
+	width:75%;
+	height:50%;
+	font-size:400%
+	}
+
+	h4
+	{
+	font-size:100%
+	}
+	h5,h3
+	{
+	font-size:120%
+}
+}
+@media screen and (min-width:1024px)
+{
+	li
+	{
+		float:left;
+		list-style:none;
+		padding:5px;
+		font-family:Dejavu Sans;
+		font-size:180%
+	}
+	nav
+	{
+		margin-top:50px;
+	}
+}
+a:hover
+{
+	background-color:black;
+	color:white
+}

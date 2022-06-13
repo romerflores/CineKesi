@@ -1,0 +1,105 @@
+header
+{
+	background-color:#92D2E3;
+	padding:10px
+}
+h4
+{
+	color:black;
+	background-color:#BEE392;
+}
+h3
+{
+	color:black;
+	background-color:#89B1A5;
+}
+h2
+{
+	color:white;
+	font-size:150%;
+	font-family:verdana
+}
+h1
+{
+	font-family:Arial;
+	color:black
+}
+table
+{
+	background-color:#4BEABC;
+	font-family:Dejavu Sans;
+	border-spacing:5px;	
+	
+}
+section
+{
+	background-color:#DEB783;
+	height:30%;
+	width:30%;
+	float:left;
+	padding:10px
+	
+}
+aside
+{
+	background-color:#2790B4;
+	height:30%;
+	width:30%;
+	float:right;
+	padding:10px
+}
+a
+{
+	text-decoration:none;
+	color:black;
+	
+}
+a:hover
+{
+	color:white;
+	background-color:black
+}
+@media screen and (max-width:1200px)
+{
+	h3,h4,h1,h5
+	{
+		font-size:135%
+	}
+	
+}
+@media screen and (max-width:1000px)
+{
+	h3,h4,h1,h5
+	{
+		font-size:110%
+	}
+	
+}
+@media screen and (max-width:820px)
+{
+	h3,h4,h1,h5
+	{
+		font-size:90%
+	}
+	
+}
+@media screen and (max-width:695px)
+{
+	h3,h4,h1,h5
+	{
+		font-size:70%
+	}
+	
+}
+@media screen and (max-width:500px)
+{
+	h3,h4,h1,h5
+	{
+		font-size:50%
+	}
+	
+}
+h5
+{
+	font-family:verdana;
+}

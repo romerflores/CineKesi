@@ -1,0 +1,85 @@
+header
+{
+	color:black;
+	padding:10px;
+	background-color:#4BE4B3;
+	width:100%
+}
+h3,h2
+{
+	color:white
+}
+#face
+{
+	float:right;
+	padding:10px;
+	width:80%
+}
+a
+{
+	text-decoration:none;
+	color:yellow
+}
+a:hover
+{
+	background-color:green;
+	color:white
+}
+img
+{
+	width:100px;
+	height:100px
+}
+#tabla
+{
+	margin-left:36%
+	
+}
+@media screen and (max-width:500px)
+{
+	h1,h2,h3
+	{
+		font-size:50%
+	}
+	img
+{
+	width:30px;
+	height:30px
+}
+	#tabla
+	{
+		margin-left:20%
+	}
+}
+@media screen and (max-width:700px)
+{
+	h1,h2,h3
+	{
+		font-size:50%
+	}
+	img
+{
+	width:40px;
+	height:40px
+}
+	#tabla
+	{
+		margin-left:20%
+	}
+}
+@media screen and (max-width:1000px)
+{
+	h1,h2,h3
+	{
+		font-size:80%
+	}
+	img
+{
+	width:40px;
+	height:40px
+}
+	#tabla
+	{
+		margin-left:30%
+	}
+}

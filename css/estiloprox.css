@@ -1,0 +1,80 @@
+header
+{
+	background:red;
+	padding:5px;
+
+}
+h2
+{
+	color:white
+}
+h3
+{
+	color:yellow
+}
+h4
+{
+	color:orange
+}
+img
+{
+	width:200px;
+	height:300px
+	
+	
+}
+@media screen and (max-width:850px)
+{
+	img
+	{
+	width:100px;
+	height:150px
+	}
+	h2,h3,h4
+	{
+		font-size:80%
+	}
+}
+@media screen and (max-width:440px)
+{
+	h1
+	{
+		font-size:80%
+	}
+}
+@media screen and (min-width:1000px)
+{
+	img
+	{
+	width:200px;
+	height:300px
+	}
+	h2,h3,h4
+	{
+		font-size:120%
+	}
+}
+@media screen and (min-width:1250px)
+{
+	img
+	{
+	width:300px;
+	height:450px
+	}
+	h2,h3,h4
+	{
+		font-size:140%
+	}
+}
+@media screen and (min-width:1500px)
+{
+	img
+	{
+	width:375px;
+	height:500px
+	}
+	h2,h3,h4
+	{
+		font-size:150%
+	}
+}
